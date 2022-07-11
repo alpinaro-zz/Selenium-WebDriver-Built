@@ -32,14 +32,14 @@ public class Sample01Amazon extends Base {
 
         boolean result = actualTitle.contains(expectedTitle);
 
-        log(getMethodName(), result, expectedTitle, actualTitle);
+        log(result, expectedTitle, actualTitle);
     }
 
     private static void isSearchBoxEnabled() {
 
         boolean result = amazon.searchBox.isEnabled();
 
-        log(getMethodName(), result);
+        log(result);
     }
 
     private static void search(String keyword) {
@@ -51,8 +51,8 @@ public class Sample01Amazon extends Base {
 
         boolean result = actualResult.contains(expectedResult);
 
-        String detail = "We've searched for the word \"java\" and are checking if the results contain that word.";
+        String tested = "We've searched for the word \"java\" and are checking if the results contain that word.";
 
-        log(getMethodName(), result, expectedResult, actualResult, detail);
+        log(result, tested, expectedResult, actualResult);
     }
 }
