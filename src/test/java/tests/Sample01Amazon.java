@@ -21,6 +21,7 @@ public class Sample01Amazon extends Base {
         isTitleContains("Amazon");
         isSearchBoxEnabled();
         search("java");
+        writeLogFile();
         close();
     }
 
