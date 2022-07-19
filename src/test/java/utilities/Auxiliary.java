@@ -26,7 +26,7 @@ public class Auxiliary {
     // Writes the data into a log file
     protected static void writeLogTXT(String data) {
 
-        writeOutputTXT("Log " + datetime() + ".txt", data);
+        writeOutputTXT("Log " + datetime() + ".log", data);
     }
 
     // Writes the data into an output file with the specified name

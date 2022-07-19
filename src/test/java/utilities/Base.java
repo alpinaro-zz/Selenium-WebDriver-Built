@@ -6,8 +6,8 @@ package utilities;
  */
 public abstract class Base {
 
-    static int testCount = 1;
-    static String logs = "";
+    private static int testCount = 1;
+    private static String logs = "";
 
     protected static void open(String URL) {
 

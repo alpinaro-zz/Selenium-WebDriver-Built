@@ -10,7 +10,7 @@ import java.util.Properties;
  */
 public class ConfigReader {
 
-    public static Properties properties;
+    private static Properties properties;
 
     static {
         String path = "configuration.properties";
@@ -24,7 +24,7 @@ public class ConfigReader {
         }
     }
 
-    public static String getProperty(String key) {
+    protected static String getProperty(String key) {
 
         return properties.getProperty(key);
     }
