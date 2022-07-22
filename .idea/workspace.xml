@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2f20a51-6443-44d4-baae-15b6e4ffe877" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/tests/Sample02Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/BaseExcel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Excel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/utilities/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Auxiliary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Auxiliary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Base.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/ConfigReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utilities/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utilities/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

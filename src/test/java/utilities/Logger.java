@@ -1,5 +1,9 @@
 package utilities;
 
+/**
+ * @author alpinaro (Alper Çınaroğlu)
+ * https://github.com/alpinaro
+ */
 public class Logger {
 
     private static int testCount = 1;
