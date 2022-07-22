@@ -1,0 +1,30 @@
+1
+Method : isCellValue11
+Expect : Alper
+Actual : Alper
+Status : PASSED
+2
+Method : isCellValue21
+Expect : Ece
+Actual : Ece
+Status : PASSED
+3
+Method : setCellValue41
+Expect : Asya
+Actual : Asya
+Status : PASSED
+4
+Method : setCellValue51
+Expect : Ararat
+Actual : Ararat
+Status : PASSED
+5
+Method : lastRowIndex
+Expect : 5
+Actual : 5
+Status : PASSED
+6
+Method : usedRowNumber
+Expect : 4
+Actual : 4
+Status : PASSED

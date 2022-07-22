@@ -1,0 +1,14 @@
+1
+Method : isTitleContains
+Expect : Amazon
+Actual : Amazon.com. Spend less. Smile more.
+Status : PASSED
+2
+Method : isSearchBoxEnabled
+Status : PASSED
+3
+Method : search
+Tested : We've searched for the word "java" and are checking if the results contain that word.
+Expect : java
+Actual : 1-48 of over 7,000 results for "java"
+Status : PASSED

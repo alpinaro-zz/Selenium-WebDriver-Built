@@ -13,8 +13,18 @@ public class Auxiliary {
 
     private static final String PATH_OUTPUT = "src/test/output/";
 
+    // Waits for the seconds
+    public static void wait(int seconds) {
+
+        try {
+            Thread.sleep(seconds * 1000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
     // Returns current date and time
-    protected static String datetime() {
+    public static String datetime() {
 
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy-MM-dd HH.mm.ss");
         LocalDateTime ldt = LocalDateTime.now();
@@ -24,13 +34,13 @@ public class Auxiliary {
     }
 
     // Writes the data into a log file
-    protected static void writeLogTXT(String data) {
+    public static void writeLogTXT(String data) {
 
         writeOutputTXT("Log " + datetime() + ".log", data);
     }
 
     // Writes the data into an output file with the specified name
-    protected static void writeOutputTXT(String fileName, String data) {
+    public static void writeOutputTXT(String fileName, String data) {
 
         String path = PATH_OUTPUT + fileName;
 
@@ -38,7 +48,7 @@ public class Auxiliary {
     }
 
     // Writes the data into a file at the specified path
-    protected static void writeTXT(String path, String data) {
+    public static void writeTXT(String path, String data) {
 
         FileOutputStream outputStream = null;
 
